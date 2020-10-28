@@ -31,9 +31,8 @@
 #define Z_STEP_PIN              GPIO_NUM_4
 #define Z_DIRECTION_PIN         GPIO_NUM_0
 
-//ENABLE 4TH AXIS
-//#define A_STEP_PIN              GPIO_NUM_2
-//#define A_DIRECTION_PIN         GPIO_NUM_15
+#define A_STEP_PIN              GPIO_NUM_2
+#define A_DIRECTION_PIN         GPIO_NUM_15
 
 #define SPINDLE_TYPE SPINDLE_TYPE_RELAY //SPINDLE_TYPE_PWM 
 #define SPINDLE_OUTPUT_PIN         GPIO_NUM_26 //DAC //PWM //ON_OFF
