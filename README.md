@@ -1,4 +1,15 @@
 
+# Custom "NumerNaBis" Grbl (CNC Controller) For ESP32
+
+<img src= "https://raw.githubusercontent.com/MarcinanBarbarzynca/Grbl_Esp32/master/IMG_0377.JPG" width="600">
+
+### Custom "NumerNaBis" Project Overview
+
+Another version of shield for 4 axis CNC Controll. Now in prototyping phase. It will work out of the shelf with external stepper motor drivers. I just wanted to make board that got more imputs and outputs. 
+
+### Schematics of "NumerNaBis" shield
+<img src="https://raw.githubusercontent.com/MarcinanBarbarzynca/Grbl_Esp32/master/Schematic_ESP32%20CNC%20DIY%20Shield%20copy_2020-10-28_23-52-39.png" width="600">
+
 
 # Grbl (CNC Controller) For ESP32
 
