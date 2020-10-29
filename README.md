@@ -1,3 +1,14 @@
+# Custom "NumerNaBis" Grbl (CNC Controller) For ESP32
+
+<img src= "https://raw.githubusercontent.com/MarcinanBarbarzynca/Grbl_Esp32/master/IMG_0377.JPG" width="600">
+
+### Custom "NumerNaBis" Project Overview
+
+Another version of shield for 4 axis CNC Controll. Now in prototyping phase. It will work out of the shelf with external stepper motor drivers. I just wanted to make board that got more imputs and outputs.
+
+### Schematics of "NumerNaBis" shield
+<img src="https://raw.githubusercontent.com/MarcinanBarbarzynca/Grbl_Esp32/master/Schematic_ESP32%20CNC%20DIY%20Shield%20copy_2020-10-28_23-52-39.png" width="600">
+
 
 
 # Grbl (CNC Controller) For ESP32
@@ -16,7 +27,7 @@ Grbl_ESP32 started as a port of [Grbl](https://github.com/gnea/grbl) to the ESP3
   - Step rates up to 120,000 per/second.
   - Trinamic (SPI controlled) stepper motors are supported including StealthChop, CoolStep and StallGuard modes. Sensorless homing can be used.
   - Unipolar stepper motor can be directly driven
-  - RC hobby servos can be used as coordinated motors with acceleration and speed control. 
+  - RC hobby servos can be used as coordinated motors with acceleration and speed control.
 - **Peripherals**
   - Limit/Homing Switches with debouncing
   - User input buttons (hold, resume, reset)
@@ -46,7 +57,7 @@ Grbl_ESP32 started as a port of [Grbl](https://github.com/gnea/grbl) to the ESP3
     - Push notifications (like...job done, get a text/email)
     - OTA (over the air) firmware upgrades.
 - SD card. Gcode can be loaded and run via WIFI.
-- **Compatibility** 
+- **Compatibility**
   - Grbl_ESP32 is fully backward compatible with Grbl and can use all gcode senders.
 - **Customizable**
   - Easy to map pins to any functions.  
@@ -58,9 +69,9 @@ Grbl_ESP32 started as a port of [Grbl](https://github.com/gnea/grbl) to the ESP3
     - Button macros (run gcode sequence, etc.)
     - Custom end of Job sequence
     - RTOS Real time operating system allows background monitoring and  control without affecting motion control performance
-  
+
 - Fast boot
-  
+
   - It boots in about 2 seconds (unlike Raspberry Pi, Beagle Bone). Does not need to be formally shut down. Just kill the power
 
 ### Test Drive It

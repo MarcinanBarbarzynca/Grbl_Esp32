@@ -1,12 +1,12 @@
 /*
-    DCServo.h
+    numernabis_4axis_xyyz.h
     Part of Grbl_ESP32
-    
+
     Pin assignments for a 4 axis flat cnc
     Board is still in testing. I will publish it when its done
-        
-    Now it uses transistor/darlington array to comunicate with stepper driver. 
-    
+
+    Now it uses transistor/darlington array to comunicate with stepper driver.
+
     Grbl_ESP32 is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -19,7 +19,7 @@
     along with Grbl_ESP32.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#define MACHINE_NAME "NumerNaBis" //now based on "ESPDUINO_32"
+#define MACHINE_NAME "numernabis_4axis_xyyz" //now based on "ESPDUINO_32"
 
 
 #define X_STEP_PIN              GPIO_NUM_18
@@ -34,7 +34,7 @@
 #define A_STEP_PIN              GPIO_NUM_2
 #define A_DIRECTION_PIN         GPIO_NUM_15
 
-#define SPINDLE_TYPE SPINDLE_TYPE_RELAY //SPINDLE_TYPE_PWM 
+#define SPINDLE_TYPE SPINDLE_TYPE_RELAY //SPINDLE_TYPE_PWM
 #define SPINDLE_OUTPUT_PIN         GPIO_NUM_26 //DAC //PWM //ON_OFF
 
 #define X_LIMIT_PIN             GPIO_NUM_36 //A //I will just connect both limit switches to one input :/
@@ -63,5 +63,3 @@
 #define CONTROL_FEED_HOLD_PIN   GPIO_NUM_32 //PinMode(CONTROL_FEED_HOLD_PIN,IMPUT);
 #define CONTROL_CYCLE_START_PIN GPIO_NUM_33 //PinMode(CONTROL_CYCLE_START_PIN,IMPUT);
 */
-
-
