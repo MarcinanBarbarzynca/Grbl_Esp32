@@ -1,19 +1,8 @@
 
-# Custom "NumerNaBis" Grbl (CNC Controller) For ESP32
-
-<img src= "https://raw.githubusercontent.com/MarcinanBarbarzynca/Grbl_Esp32/master/IMG_0377.JPG" width="600">
-
-### Custom "NumerNaBis" Project Overview
-
-Another version of shield for 4 axis CNC Controll. Now in prototyping phase. It will work out of the shelf with external stepper motor drivers. I just wanted to make board that got more imputs and outputs. 
-
-### Schematics of "NumerNaBis" shield
-<img src="https://raw.githubusercontent.com/MarcinanBarbarzynca/Grbl_Esp32/master/Schematic_ESP32%20CNC%20DIY%20Shield%20copy_2020-10-28_23-52-39.png" width="600">
-
 
 # Grbl (CNC Controller) For ESP32
 
-<img src="https://github.com/bdring/6-Pack_CNC_Controller/blob/master/images/20200711_120633.jpg" width="600">
+<img src="https://user-images.githubusercontent.com/189677/93836185-74c27500-fc47-11ea-8bed-5d419974c196.jpg" width="600">
 
 ### Project Overview
 
@@ -79,6 +68,8 @@ Grbl_ESP32 started as a port of [Grbl](https://github.com/gnea/grbl) to the ESP3
 Grbl_ESP32 has a test drive mode. If you just compile it and load it onto an ESP32, it will create a virtual machine without any pins mapped. This allows you to safely test drive it without any attached hardware. Everything is functional including the WIFI and web user interface. Things like homing, that require feedback from actual switches cannot be done.
 
 ### Using It
+
+Important compiling instructions are [in the wiki](https://github.com/bdring/Grbl_Esp32/wiki/Compiling-the-firmware)
 
 The code should be compiled using the latest Arduino IDE. [Follow instructions here](https://github.com/espressif/arduino-esp32) on how to setup ESP32 in the IDE. The choice was made to use the Arduino IDE over the ESP-IDF to make the code a little more accessible to novices trying to compile the code.
 
